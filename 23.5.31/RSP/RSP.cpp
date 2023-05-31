@@ -9,7 +9,7 @@ int main ()
 	scanf_s("%d", &inputnumber);
 
 	
-	printf("%s",(inputnumber == 1) ? "승" : (inputnumber == 2) ? "패" : (inputnumber == 3) ? "패" : "반칙패");
+	printf("%s",(inputnumber == 1) ? "패" : (inputnumber == 2) ? "무승부" : (inputnumber == 3) ? "승" : "반칙패");
 
 	
 
