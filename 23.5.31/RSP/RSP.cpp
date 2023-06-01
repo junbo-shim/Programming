@@ -11,6 +11,6 @@ int main ()
 	
 	printf("%s",(inputnumber == 1) ? "패" : (inputnumber == 2) ? "무승부" : (inputnumber == 3) ? "승" : "반칙패");
 
-	
+	 
 
 }
