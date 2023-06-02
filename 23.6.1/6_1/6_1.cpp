@@ -119,31 +119,31 @@
 
 
 //
-//    // 함수의 전방선언
+//    // 함수의 전방선언 - 함수의 이름과 () 안에 들어갈 변수도 작성
 //float circlespace(float PI, int radius);
 //
 //
 //int main()
 //{   
-//	const float PI = 3.141592f;
-//    int radius;
+//	const float PI = 3.141592f;                      // 상수 PI를 선언
+//    int radius;                                    // 변수 반지름 선언
 //	
 //	// 입력 요청
-//	printf("원의 반지름을 입력하세요:");
-//	scanf_s("%d", &radius);
+//	printf("원의 반지름을 입력하세요:");             // 입력 요청 출력
+//	scanf_s("%d", &radius);                          // 반지름 입력값 스캔, 반지름 변수 앞에 &
 //
 //	
-//	// 출력
+//	// 출력                                          // 출력문 > 소켓 2개 (%d와 %.3f)에 각각 변수 radius와 계산함수 ciclespace(변수포함)를 넣는다
 //	printf("입력하신 원의 반지름은 %d입니다. 요청하신 원의 넓이는 %.3f입니다.", radius, circlespace(PI, radius));
 //
 //	return 0;
 //}
 //
 //	// 계산식 함수
-//float circlespace(float PI, int radius)
+//float circlespace(float PI, int radius)            // 계산함수 circlespace 정의 () 안에 변수 넣기
 //{
 //	float result;
-//	result = PI * radius * radius;
+//	result = PI * radius * radius;                   // 계산식을 return이라는 값으로 돌려줌
 //	return result;
 //}
 
