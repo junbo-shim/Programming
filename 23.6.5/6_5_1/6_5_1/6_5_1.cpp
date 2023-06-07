@@ -43,6 +43,10 @@ void Homework();
 		{
 			board[i] = '0';
 		}
+		else if(i==1)
+		{
+			board[i] = '0';
+		}
 	}
 	// board를 초기화하는 로직
 
@@ -56,28 +60,28 @@ void Homework();
 }
 
 
-void Description004()			// 구구단 출력 프로그램 만들기
-{
-	const int MAX_ARRAY = 7;
-	int guguDan[8] = { 0, };
-	
-
-	for (int i = 0; i<MAX_ARRAY; i++)
-	{
-		printf("%d", guguDan[i + 1] * guguDan[i]);
-	
-	
-	
-	
-	
-	}
-
-
-	//int lineCount1[9] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-
-
-
-}
+//void Description004()			// 구구단 출력 프로그램 만들기
+//{
+//	const int MAX_ARRAY = 7;
+//	int guguDan[8] = { 0, };
+//	
+//
+//	for (int i = 0; i<MAX_ARRAY; i++)
+//	{
+//		printf("%d", guguDan[i + 1] * guguDan[i]);
+//	
+//	
+//	
+//	
+//	
+//	}
+//
+//
+//	//int lineCount1[9] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+//
+//
+//
+//}
 
 
 //void Description003()				// 배열이란 무엇인지 실습
