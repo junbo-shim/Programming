@@ -227,6 +227,7 @@ namespace _6_16
         int one_x3 = default;
         int one_y3 = default;
 
+
         public void Make_Field()    // 지도 크기 설정 및 루프
         {
             Console.WriteLine("지도 크기를 입력하세요 (8~20)");
@@ -312,7 +313,9 @@ namespace _6_16
                 {
 
                     for (int j = 0; j < map_size-1; j++)
-                    {   int sum = default;
+                    {   
+                        
+                        int sum = default;
                         
                         for (int i = 0; i < map_size - 1; i++)
                         {
@@ -337,6 +340,7 @@ namespace _6_16
                     for (int i = 0; i < map_size-1; i++)
                     {
                         int sum = default;
+
                         for (int j = 0; j < map_size-1; j++)
                         {
                             if (field[j, i] == 0)
